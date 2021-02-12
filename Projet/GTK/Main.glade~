@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.38.2 -->
+<interface>
+  <requires lib="gtk+" version="3.24"/>
+  <object class="GtkWindow" id="Adherent">
+    <property name="can-focus">False</property>
+    <child>
+      <object class="GtkFixed">
+        <property name="visible">True</property>
+        <property name="can-focus">False</property>
+        <child>
+          <object class="GtkButton" id="Modifier">
+            <property name="label" translatable="yes">Modifier</property>
+            <property name="name">Gestion Adherent</property>
+            <property name="width-request">10</property>
+            <property name="height-request">30</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+          <packing>
+            <property name="x">50</property>
+            <property name="y">105</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="Charger ">
+            <property name="label" translatable="yes">Importer</property>
+            <property name="name">Gestion Adherent</property>
+            <property name="width-request">10</property>
+            <property name="height-request">30</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+          <packing>
+            <property name="x">50</property>
+            <property name="y">40</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="Ajouter ">
+            <property name="label" translatable="yes">Ajouter</property>
+            <property name="name">Gestion Adherent</property>
+            <property name="width-request">10</property>
+            <property name="height-request">30</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+          <packing>
+            <property name="x">250</property>
+            <property name="y">40</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="Rechercher ">
+            <property name="label" translatable="yes">Rechercher</property>
+            <property name="name">Gestion Adherent</property>
+            <property name="width-request">10</property>
+            <property name="height-request">30</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+          <packing>
+            <property name="x">250</property>
+            <property name="y">105</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="Exporter">
+            <property name="label" translatable="yes">Exporter</property>
+            <property name="name">Gestion Adherent</property>
+            <property name="width-request">10</property>
+            <property name="height-request">30</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+          <packing>
+            <property name="x">250</property>
+            <property name="y">170</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="Supprimer ">
+            <property name="label" translatable="yes">Supprimer</property>
+            <property name="name">Gestion Adherent</property>
+            <property name="width-request">10</property>
+            <property name="height-request">30</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+          <packing>
+            <property name="x">50</property>
+            <property name="y">170</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+  <object class="GtkWindow" id="Emprunt">
+    <property name="can-focus">False</property>
+    <child>
+      <object class="GtkFixed">
+        <property name="visible">True</property>
+        <property name="can-focus">False</property>
+        <child>
+          <object class="GtkButton" id="emprunter">
+            <property name="label" translatable="yes">Emprunter</property>
+            <property name="name">Gestion Adherent</property>
+            <property name="width-request">10</property>
+            <property name="height-request">30</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+          <packing>
+            <property name="x">110</property>
+            <property name="y">40</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="Affiche_livre_emprunte">
+            <property name="label" translatable="yes">Afficher livres empruntes</property>
+            <property name="name">Gestion Adherent</property>
+            <property name="width-request">10</property>
+            <property name="height-request">30</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+          <packing>
+            <property name="x">110</property>
+            <property name="y">130</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="rendre">
+            <property name="label" translatable="yes">Rendre</property>
+            <property name="name">Gestion Adherent</property>
+            <property name="width-request">10</property>
+            <property name="height-request">30</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+          <packing>
+            <property name="x">110</property>
+            <property name="y">175</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="affiche_emprunteur">
+            <property name="label" translatable="yes">Afficher Emprunteur</property>
+            <property name="name">Gestion Adherent</property>
+            <property name="width-request">10</property>
+            <property name="height-request">30</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+          <packing>
+            <property name="x">110</property>
+            <property name="y">85</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+  <object class="GtkWindow" id="Livres">
+    <property name="can-focus">False</property>
+    <child>
+      <object class="GtkFixed">
+        <property name="width-request">32</property>
+        <property name="height-request">32</property>
+        <property name="visible">True</property>
+        <property name="can-focus">False</property>
+        <child>
+          <object class="GtkButton" id="Modifier ">
+            <property name="label" translatable="yes">Modifier</property>
+            <property name="name">Gestion Adherent</property>
+            <property name="width-request">10</property>
+            <property name="height-request">30</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+          <packing>
+            <property name="x">50</property>
+            <property name="y">105</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="Charger">
+            <property name="label" translatable="yes">Importer</property>
+            <property name="name">Gestion Adherent</property>
+            <property name="width-request">10</property>
+            <property name="height-request">30</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+          <packing>
+            <property name="x">50</property>
+            <property name="y">40</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="Ajouter">
+            <property name="label" translatable="yes">Ajouter</property>
+            <property name="name">Gestion Adherent</property>
+            <property name="width-request">10</property>
+            <property name="height-request">30</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+          <packing>
+            <property name="x">250</property>
+            <property name="y">40</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="Rechercher">
+            <property name="label" translatable="yes">Rechercher</property>
+            <property name="name">Gestion Adherent</property>
+            <property name="width-request">10</property>
+            <property name="height-request">30</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+          <packing>
+            <property name="x">250</property>
+            <property name="y">105</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="Exporter ">
+            <property name="label" translatable="yes">Exporter</property>
+            <property name="name">Gestion Adherent</property>
+            <property name="width-request">10</property>
+            <property name="height-request">30</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+          <packing>
+            <property name="x">250</property>
+            <property name="y">170</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="Supprimer">
+            <property name="label" translatable="yes">Supprimer</property>
+            <property name="name">Gestion Adherent</property>
+            <property name="width-request">10</property>
+            <property name="height-request">30</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+          <packing>
+            <property name="x">50</property>
+            <property name="y">170</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+  <object class="GtkWindow" id="Main_window">
+    <property name="can-focus">False</property>
+    <child>
+      <object class="GtkFixed">
+        <property name="visible">True</property>
+        <property name="can-focus">False</property>
+        <child>
+          <object class="GtkButton" id="button_emprunt">
+            <property name="label" translatable="yes">Emprunt</property>
+            <property name="name">Gestion Adherent</property>
+            <property name="width-request">10</property>
+            <property name="height-request">30</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+          <packing>
+            <property name="x">35</property>
+            <property name="y">176</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="button_adherent">
+            <property name="label" translatable="yes">Adherent</property>
+            <property name="width-request">10</property>
+            <property name="height-request">30</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+          <packing>
+            <property name="x">170</property>
+            <property name="y">176</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="button_livre">
+            <property name="label" translatable="yes">Livre</property>
+            <property name="width-request">10</property>
+            <property name="height-request">30</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+          <packing>
+            <property name="x">315</property>
+            <property name="y">176</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
